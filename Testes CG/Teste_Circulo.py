@@ -16,21 +16,21 @@ malha = dt.MalhaQuadriculada()
 
 #====================================================================
 
-#EXEMPLO DE CIRCULO 01(0.25pts)
-
-#Define os argumentos
-centro = [0, 0]
-raio = 10
-
-#Recebe os pontos do circulo
-circulo = Circulo(centro, raio)
-circunferencia = circulo.saida
-
-#Define a cor
-cor = VERDE
-
-#Pinta a malha
-malha.colorir_quadrados(cor, circunferencia)
+# #EXEMPLO DE CIRCULO 01(0.25pts)
+#
+# #Define os argumentos
+# centro = [0, 0]
+# raio = 10
+#
+# #Recebe os pontos do circulo
+# circulo = Circulo(centro, raio)
+# circunferencia = circulo.saida
+#
+# #Define a cor
+# cor = VERDE
+#
+# #Pinta a malha
+# malha.colorir_quadrados(cor, circunferencia)
 
 #====================================================================
 
@@ -70,8 +70,8 @@ malha.colorir_quadrados(cor, circunferencia)
 
 #====================================================================
 
-#EXEMPLO DE CIRCULO 04(0.25pts)
-
+# #EXEMPLO DE CIRCULO 04(0.25pts)
+#
 # #Define os argumentos
 # centro = [-13, -9]
 # raio = 7

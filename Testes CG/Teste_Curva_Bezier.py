@@ -64,7 +64,7 @@ malha = dt.MalhaQuadriculada()
 # #EXEMPLO DE CURVA DE BEZIER 04
 #
 # #Define os pontos de controle da curva de bezier
-# curva = curvas(20, [[-30, -3], [-15, -25],[-25, -20], [25, -20], [15, -25], [30, -3]])
+# curva = curvas(200, [[-30, -3], [-15, -25],[-25, -20], [25, -20], [15, -25], [30, -3]])
 #
 # curvaDeBezier = curva
 #

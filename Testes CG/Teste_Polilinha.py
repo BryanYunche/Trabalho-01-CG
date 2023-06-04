@@ -16,8 +16,8 @@ malha = dt.MalhaQuadriculada()
 
 #====================================================================
 
-#EXEMPLO DE POLILINHA 01 - SEM LIGAR O INICIO COM O FIM DA RETA
-
+# #EXEMPLO DE POLILINHA 01 - SEM LIGAR O INICIO COM O FIM DA RETA
+#
 # # Exemplo de lista de coordenadas para colorir
 # retasPolilinhas = polilinha(-42, -5, -31, -12, -27, -9, -21, -18, -14, -2)
 #
@@ -55,16 +55,16 @@ malha = dt.MalhaQuadriculada()
 
 #====================================================================
 
-#EXEMPLO DE POLILINHA 04 - LIGANDO O INICO NO FINAL
-
-# Exemplo de lista de coordenadas para colorir
-retasPolilinhas = polilinha(-42, -5, -31, -12, -27, -9, -21, -18, -14, -2, fechaPoligono=True)
-
-#Define a cor
-cor = VERDE
-
-#Pinta a malha
-malha.colorir_quadrados(cor, retasPolilinhas)
+# #EXEMPLO DE POLILINHA 04 - LIGANDO O INICO NO FINAL
+#
+# # Exemplo de lista de coordenadas para colorir
+# retasPolilinhas = polilinha(-42, -5, -31, -12, -27, -9, -21, -18, -14, -2, fechaPoligono=True)
+#
+# #Define a cor
+# cor = VERDE
+#
+# #Pinta a malha
+# malha.colorir_quadrados(cor, retasPolilinhas)
 
 #====================================================================
 

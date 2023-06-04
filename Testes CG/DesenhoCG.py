@@ -86,7 +86,7 @@ malha.colorir_quadrados(cor, poligonoDesenhado.saida)
 #SORRISO
 
 #Define os pontos de controle da curva de bezier
-curva = curvas(20, [[-30, -3], [-15, -25],[-25, -20], [25, -20], [15, -25], [30, -3]])
+curva = curvas(200, [[-30, -3], [-15, -25],[-25, -20], [25, -20], [15, -25], [30, -3]])
 
 curvaDeBezier = curva
 

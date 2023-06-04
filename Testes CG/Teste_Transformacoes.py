@@ -36,7 +36,7 @@ malha.colorir_quadrados(cor, retasPolilinhas)
 # #Faz com que o poligono seja instanciado como um objeto que pode sofrer transformações
 # objetoDeTransfomacao = trans.Transformacao(entrada=retasPolilinhas)
 #
-# objetoDeTransfomacao.translar(20,20) #(0.25pts)
+# objetoDeTransfomacao.translar(20, 20) #(0.25pts)
 #
 # #Define a cor
 # cor = AZUL
@@ -62,13 +62,13 @@ malha.colorir_quadrados(cor, retasPolilinhas)
 
 #====================================================================
 
-# #EXEMPLO DE TRANSFORMAÇÃO POR ROTAÇÃO
-#
-# #Faz com que o poligono seja instanciado como um objeto que pode sofrer transformações
-# objetoDeTransfomacao = trans.Transformacao(entrada=retasPolilinhas)
-#
-# #----------------------- ROTAÇÃO 90----------------------------------
-#
+#EXEMPLO DE TRANSFORMAÇÃO POR ROTAÇÃO
+
+#Faz com que o poligono seja instanciado como um objeto que pode sofrer transformações
+objetoDeTransfomacao = trans.Transformacao(entrada=retasPolilinhas)
+
+#----------------------- ROTAÇÃO 90----------------------------------
+
 # #Define o ponto pivo e a rotação como argumento
 # objetoDeTransfomacao.rotacionar([7, -6], 90)
 #

@@ -30,8 +30,8 @@ malha = dt.MalhaQuadriculada()
 
 #====================================================================
 
-#EXEMPLO DE BRESENHAM 02 (0.25pts)
-
+# #EXEMPLO DE BRESENHAM 02 (0.25pts)
+#
 # # Exemplo de lista de coordenadas para colorir
 # bresenham = Bresenham(-13, -9, 10, 13)
 # reta = bresenham.saida

@@ -20,15 +20,15 @@ malha = dt.MalhaQuadriculada()
 #====================================================================
 #EXEMPLO DE PREENCHIMENTO POR VARREDURA 01
 
-# Exemplo de lista de coordenadas para colorir
-poligono = [(-8, -8), (8, 8), (-16, 16)]
-poligonoDesenhado = Varredura(poligono)
-
-#Define a cor da borda
-cor = VERDE
-
-#Pinta a malha
-malha.colorir_quadrados(cor, poligonoDesenhado.saida)
+# # Exemplo de lista de coordenadas para colorir
+# poligono = [(-8, -8), (8, 8), (-16, 16)]
+# poligonoDesenhado = Varredura(poligono)
+#
+# #Define a cor da borda
+# cor = VERDE
+#
+# #Pinta a malha
+# malha.colorir_quadrados(cor, poligonoDesenhado.saida)
 
 #====================================================================
 
@@ -60,17 +60,17 @@ malha.colorir_quadrados(cor, poligonoDesenhado.saida)
 
 #====================================================================
 
-#EXEMPLO DE PREENCHIMENTO POR VARREDURA 04
-
-# Exemplo de lista de coordenadas para colorir
-poligono = [(-35, -13), (-27, 19), (-3, 26), (19, 20), (29, -10), (9, -28)]
-poligonoDesenhado = Varredura(poligono)
-
-#Define a cor da borda
-cor = VERMELHO
-
-#Pinta a malha
-malha.colorir_quadrados(cor, poligonoDesenhado.saida)
+# #EXEMPLO DE PREENCHIMENTO POR VARREDURA 04
+#
+# # Exemplo de lista de coordenadas para colorir
+# poligono = [(-35, -13), (-27, 19), (-3, 26), (19, 20), (29, -10), (9, -28)]
+# poligonoDesenhado = Varredura(poligono)
+#
+# #Define a cor da borda
+# cor = VERMELHO
+#
+# #Pinta a malha
+# malha.colorir_quadrados(cor, poligonoDesenhado.saida)
 
 #====================================================================
 
